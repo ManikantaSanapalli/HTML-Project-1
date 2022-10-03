@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM AND FITNESS</title>
+
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'BhuTuka Expanded One', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/pexels-leon-ardho-1552249.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        line-height: 25px;
+
+
+
+
+    }
+
+    .left img {
+        width: 55px;
+
+        padding-left: 22px;
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 14px;
+        color: rgb(247, 242, 242);
+    }
+
+    .mid {
+
+        display: block;
+        width: 33%;
+        margin: 30px 330px;
+        /* border: 2px solid rgb(27, 125, 37); */
+        width: 60%;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 25px;
+        top: 39px;
+        display: inline-block;
+        /* border: 2px solid rgb(252, 245, 245); */
+      
+
+
+    }
+
+    .navbar li {
+
+        float: left;
+        padding: 15px;
+        color: rgb(246, 243, 243);
+    }
+
+    .navbar {
+
+        overflow: auto;
+        list-style: none;
+        margin: 0px;
+    }
+
+    .navbar li a {
+        color: rgb(254, 251, 251);
+        text-decoration: none;
+        padding: 0px 20px;
+        font-size: 17px;
+    }
+
+    .navbar li a:hover {
+        color: rgb(96, 10, 176);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .btn {
+        font-family: 'BhuTuka Expanded One', cursive;
+        border: 2px solid rgb(252, 245, 245);
+
+        color: rgb(252, 245, 245);
+        text-decoration: none;
+        background-color: black;
+        border-radius: 10px;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .btn:hover {
+        text-decoration: underline;
+        color: yellow;
+    }
+
+    .container2 {
+        width: 29%;
+        border: 2px solid rgb(249, 244, 244);
+        padding: 54px 18px;
+        margin: 180px 16px;
+        border-radius: 10px;
+    }
+
+    .container3 input {
+        font-family: 'BhuTuka Expanded One', cursive;
+        text-align: center;
+        display: block;
+        width: 250px;
+        padding: 5px;
+        margin: 20px auto;
+        border: 2px solid red;
+        border-radius: 20px;
+    }
+
+    .container2 h1 {
+        text-align: center;
+        font-size: 20px;
+        color: rgb(249, 238, 238);
+    }
+
+    #button1 {
+        display: block;
+        width: 110px;
+        margin: 0px 169px;
+    }
+</style>
+
+<body>
+    <header class="container">
+        <div class="left">
+            <img src="img/img2.jpg" alt="Logo">
+
+            <div>&nbsp; Mani Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="https://www.youtube.com/" target="_blank">Home</a></li>
+                <li><a href="#" target="_blank">About </a></li>
+                <li><a href="#" target="_blank">Fitness Calculator</a></li>
+                <li><a href="#" target="_blank">Gallery</a></li>
+                <li><a href="#" target="_blank">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+
+            <button class="btn">Login</button>
+
+        </div>
+    </header>
+    <div class="container2">
+        <h1> WELCOME to the best GYM in the city. Join Now!</h1>
+
+        <form action="action.php">
+            <div class="container3">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="container3">
+                <input type="date" name="" placeholder="Enter Your DOB">
+            </div>
+            <div class="container3">
+                <input type="number" name="" placeholder="Enter Your Mobile Number">
+            </div>
+            <div class="container3">
+                <input type="email" name="" placeholder="Enter Your Email">
+            </div>
+
+            <button class="btn" id="button1">Submit</button>
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
